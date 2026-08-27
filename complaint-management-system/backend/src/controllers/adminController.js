@@ -1,0 +1,3 @@
+const db=require('../config/db');
+exports.stats=async(_q,res)=>{const r=await db.query(`SELECT COUNT(*)::int total,COUNT(*) FILTER(WHERE status='SUBMITTED')::int submitted,COUNT(*) FILTER(WHERE status='UNDER_REVIEW')::int under_review,COUNT(*) FILTER(WHERE status='ASSIGNED')::int assigned,COUNT(*) FILTER(WHERE status='IN_PROGRESS')::int in_progress,COUNT(*) FILTER(WHERE status='RESOLVED')::int resolved,COUNT(*) FILTER(WHERE status='CLOSED')::int closed,COUNT(*) FILTER(WHERE priority='URGENT')::int urgent FROM complaints`);res.json(r.rows[0])};
+exports.users=async(_q,res)=>res.json((await db.query('SELECT id,name,email,role,created_at FROM users ORDER BY created_at DESC')).rows);
