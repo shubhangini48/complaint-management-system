@@ -595,15 +595,13 @@ If you find this project useful, consider giving the repository a ⭐.
 
 This project was created for educational and portfolio purposes.
 
-### After pasting
+
 
 In VS Code:
 
 **1. `README.md` → `Ctrl + A` → paste the above**
 
 **2. Save with `Ctrl + S`**
-
-**3. Do NOT commit yet.**
 
 Then run:
 ```powershell
