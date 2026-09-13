@@ -431,25 +431,37 @@ Screenshots will be added here after completing and testing the application.
 ### Login Page
 
 ```text
-Add screenshot here
+<img width="946" height="977" alt="Screenshot 2026-09-13 142023" src="https://github.com/user-attachments/assets/89215648-883d-4426-b11e-061e6cfb88b2" />
+
+
 ```
 
 ### User Dashboard
 
 ```text
-Add screenshot here
+<img width="951" height="965" alt="Screenshot 2026-09-13 143405" src="https://github.com/user-attachments/assets/aa1ed211-d884-468f-8bc6-da5028083f93" />
+
+
+
+
+
 ```
 
 ### Submit Complaint
 
 ```text
-Add screenshot here
+<img width="1903" height="961" alt="Screenshot 2026-09-13 143816" src="https://github.com/user-attachments/assets/0eae723d-bb1f-49ad-899d-c928bb81bb31" />
+
+
+
+
 ```
 
 ### Complaint Details
 
 ```text
-Add screenshot here
+<img width="1901" height="951" alt="Screenshot 2026-09-13 143536" src="https://github.com/user-attachments/assets/15076aec-1959-45de-b8a3-e95206f5d8b0" />
+
 ```
 
 ### Staff Dashboard
