@@ -55,15 +55,6 @@ The system aims to reduce manual complaint handling, improve transparency, and m
 - Add comments
 - Monitor complaint resolution
 
-### 🧑‍💼 Staff Features
-
-- Staff authentication
-- View assigned complaints
-- View complaint details
-- Update complaint status
-- Add comments
-- Manage complaints assigned by administrators
-
 ### 👨‍💻 Admin Features
 
 - Admin authentication
@@ -385,6 +376,7 @@ JWT_SECRET=your_secret_key
 Inside the `backend` folder:
 
 ```bash
+cd backend
 npm run dev
 ```
 
@@ -402,6 +394,7 @@ Open another terminal:
 
 ```bash
 cd frontend
+npm run dev
 ```
 
 Install dependencies:
@@ -464,16 +457,11 @@ Screenshots will be added here after completing and testing the application.
 
 ```
 
-### Staff Dashboard
-
-```text
-Add screenshot here
-```
-
 ### Admin Dashboard
 
 ```text
-Add screenshot here
+<img width="1866" height="957" alt="Screenshot 2026-09-13 204434" src="https://github.com/user-attachments/assets/2a0dd387-8fe9-4c3b-a857-6f44675e410e" />
+
 ```
 
 ---
@@ -585,15 +573,15 @@ GitHub:
 https://github.com/shubhangini48
 
 LinkedIn:  
-Add your LinkedIn profile link here
+https://www.linkedin.com/in/shubhangini-dhangar-852397389/
 
 ---
 
 ## ⭐ Project Status
 
-🚧 **Currently under development**
+🟢 Functional MVP — Completed
 
-This project is being developed as a practical full-stack application to strengthen skills in **React.js, Node.js, Express.js, PostgreSQL, REST APIs, authentication, database management, and software development practices.**
+ComplaintHub is a functional full-stack complaint management application with authentication, role-based access control, complaint submission, complaint tracking, comments, status management, search functionality, and an administrative dashboard.
 
 ---
 
@@ -602,5 +590,23 @@ This project is being developed as a practical full-stack application to strengt
 If you find this project useful, consider giving the repository a ⭐.
 
 ---
+
+📄 License
+
+This project was created for educational and portfolio purposes.
+
+### After pasting
+
+In VS Code:
+
+**1. `README.md` → `Ctrl + A` → paste the above**
+
+**2. Save with `Ctrl + S`**
+
+**3. Do NOT commit yet.**
+
+Then run:
+```powershell
+git status
 
 **Made with ❤️ by Shubhangini Dhangar**
